@@ -27,7 +27,7 @@ while True:
         
         eyes = eyeCascade.detectMultiScale(
             roi_gray,
-            scaleFactor= 3,
+            scaleFactor= 1.5,
             minNeighbors=10,
             minSize=(5, 5),
             )
